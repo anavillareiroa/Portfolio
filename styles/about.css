@@ -1,0 +1,254 @@
+@keyframes scaleButton {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@font-face {
+    font-family:"Poppins-Light" ;
+    src: url("../Fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family:"Poppins-Bold" ;
+    src: url("../Fonts/Poppins-Bold.ttf");
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    width: 100vw;
+    max-width: 1280px;
+    justify-content: space-between;
+    margin:0 auto;
+    padding-top: 32px;  
+    padding-bottom: 40px;
+}
+
+nav{
+    display:flex; 
+    font-size: 20px;
+    font-family: "Poppins-Light";
+}
+
+nav a{
+    font-size: 25px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.logo{
+    width: 200px; 
+}
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins-Regular";
+    padding-top: 90px;
+    padding-bottom:56px;
+}
+#profile{
+    display: flex;
+    align-items: center;
+    width: 924px;
+    justify-content: space-between;
+}
+
+.photo{
+    width: 450px;
+}
+
+p, a{
+    font-family: "Poppins-Light";
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.text{
+    width: 450px;
+}
+.text p{
+    margin-bottom: 16px;
+}
+.numeroTelefono{
+    margin-top: 32px;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 32px;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.programs{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.programs p{
+    margin-right: 32px;
+    margin-top:50px;
+    background-color: lemonchiffon;
+}
+
+.programs p:last-child{
+    margin-right: 0px;
+}
+
+footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.contactme{
+    display:flex;
+    justify-content:center;
+}
+
+.projects:hover{
+    animation: scaleButton 2s;
+    -webkit-animation: scaleButton 2s;
+    -moz-animation: scaleButton 2s;
+}
+
+.about:hover{
+    animation: scaleButton 2s;
+    -webkit-animation: scaleButton 2s;
+    -moz-animation: scaleButton 2s; 
+}
+
+
+/* 
+#Profile{
+    display:flex;
+    width:1020px;
+    max-width: 1280px;  
+    justify-content: space-between;
+}
+
+.Me{
+    width: 400px;
+    height: 497 px;
+    margin-left: 80px;
+    object-fit: cover;
+}
+
+#Profile div{
+    width:750px;
+    flex-direction: column;
+    align-items:center;
+    margin-left: 30px;
+
+}
+
+h2{
+    width: 100vw;
+    max-width: 1280px; 
+    margin:0 auto;
+    margin-top: 8   0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins-Regular";
+    padding-top: 90px;
+    padding-bottom:56px;
+   
+}
+
+.information{
+    font-family: "Poppins-Light";
+    font-size: 20px;
+}   
+
+.Moreinfo{
+    font-family: "Poppins-Light";
+    font-size: 20px;
+    padding-top: 16px;
+}
+
+.Moreinfo2{
+    font-family: "Poppins-Light";
+    font-size: 20px;
+    padding-top: 16px;
+}
+
+.Resume{
+    margin-bottom: 50px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color:indianred;
+    color:black;
+}
+
+nav{
+    display:flex; 
+    font-size: 20px;
+    font-family: "Poppins-Light";
+}
+
+.telefono{
+    font-size: 20px;
+    font-family: "Poppins-Light";
+    padding-top:16px;
+}
+
+.Numerotelefono{
+    font-size: 20px;
+    font-family: "Poppins-Light";
+    padding-top:20px;
+    text-decoration: none;
+}
+
+.contacto{
+    display:flex;
+    
+}
+
+.content{
+    display:flex;
+    width: 100%;
+    max-width: 1280px;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.Programs{
+    display:flex;
+    width: 100%;
+    max-width: 1440px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: "Poppins-Regular";
+    background-color: burlywood;
+} */
