@@ -96,7 +96,7 @@ p, a{
     display: flex;
     align-items: center;
     margin-left:129px;
-    margin-top:20px;
+    margin-top:50px;
 }
 
 .icon{
@@ -163,8 +163,26 @@ footer{
     background-size: 100% 2px;
 }
 
+.medium{
+    transition: transform .5s;
+}
+.medium:hover{
+    transform:scale(1.5);   
+}
 
+.mail{
+    transition: transform .5s;
+}
+.mail:hover{
+    transform:scale(1.5);   
+}
 
+.linkedin{
+    transition: transform .5s;
+}
+.linkedin:hover{
+    transform:scale(1.5);   
+}
 
 /* MEDIA QUERIES */
 
