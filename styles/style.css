@@ -40,7 +40,7 @@ nav a{
     color: black;
 }
 
-.Logo{
+.logo{
     width: 200px;
 }
 
@@ -96,6 +96,7 @@ h3{
     max-width: 1280px;
     justify-content: space-around;
     margin:0 auto;  
+    flex-wrap: wrap;
 }
 
 #Proyecto1{
@@ -155,7 +156,7 @@ h3{
     margin: 0 auto;
     justify-content: space-between;
 }
-.flecha{
+.boton{
     padding-top: 50px;
 }
 
@@ -169,4 +170,135 @@ h3{
     animation: scaleButton 2s;
     -webkit-animation: scaleButton 2s;
     -moz-animation: scaleButton 2s; 
+}
+
+.contactme{
+    float: right;
+    -webkit-transition: margin 1s ease-out;
+    -moz-transition: margin 1s ease-out;
+    -ms-transition: margin 1s ease-out;
+    transition: margin 1s ease-out;
+    }
+    
+.contactme img:hover {
+    margin-bottom: 15px;
+    }
+
+/* MEDIA QUERIES */
+
+@media( max-width: 1300px) {
+
+    h2,h4{
+        font-size: 30px;                                               
+    }
+
+    .logo{
+        width:170px;    
+    }
+    
+    .projects{
+        font-size: 25px;
+    }
+
+    .about{
+        font-size: 25px;
+    }
+
+    .Misproyectos{
+        flex-wrap: wrap;
+    }
+
+    #Proyecto1{
+        width:80%; 
+    }
+
+    #Proyecto2{
+        width:80%; 
+        padding-top:170px;
+
+    }
+
+    #Proyecto3{
+        width:80%; 
+        padding-top:170px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    .text{
+        font-size:18px;
+    }
+}
+
+
+@media( max-width: 900px) {
+
+    h2,h4{
+
+        font-size: 25px;                                                        
+    }
+
+    .logo{
+
+        width:150px;    
+    }
+    
+    .projects{
+        font-size: 20px;
+    }
+
+    .about{
+        font-size: 20px;
+    }
+
+
+    .Misproyectos{
+        flex-wrap: wrap;
+    }
+
+    h3  {
+        font-size: 20px;
+    }
+
+    .text{
+        font-size:15px;
+    }
+
+}
+
+
+@media( max-width: 700px) {
+
+    h2,h4{
+        font-size: 22px;                                                
+    }
+
+    .logo{
+        width:100px;    
+    }
+    
+    .projects{
+        font-size: 15px;
+    }
+
+    .about{
+        font-size:15px;
+    }
+
+    #Proyecto1{
+        width:100%; 
+    }
+
+    #Proyecto2{
+        width:100%; 
+        padding-top:170px;
+    }
+
+    #Proyecto3{
+        width: 100%; 
+        padding-top:170px;
+    }
+
 }

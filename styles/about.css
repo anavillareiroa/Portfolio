@@ -56,19 +56,20 @@ main{
     margin: 0 auto;
 }
 
-h2{
-    margin-bottom: 50px;
-    text-align: center;
+h1{
     font-size: 30px;
     font-family: "Poppins-Regular";
+    text-align: center;
     padding-top: 90px;
-    padding-bottom:56px;
+    padding-bottom:80px;
 }
+
 #profile{
     display: flex;
     align-items: center;
     width: 924px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .photo{
@@ -94,12 +95,30 @@ p, a{
 .contacto{
     display: flex;
     align-items: center;
+    margin-left:129px;
+    margin-top:20px;
 }
 
 .icon{
     width: 32px;
     margin-top: 32px;
     margin-right: 32px;
+}
+
+.resume{
+    justify-content: center;
+    margin-top:50px;
+    display: flex;
+    padding-bottom: 15px;
+    padding-top:15px;
+    background-color:lavender;
+    flex-wrap: wrap;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
 }
 
 .programs{
@@ -112,37 +131,75 @@ p, a{
 .programs p{
     margin-right: 32px;
     margin-top:50px;
-    background-color: lemonchiffon;
+
 }
 
 .programs p:last-child{
     margin-right: 0px;
 }
 
-footer{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 100px;
-}
-
-.contactme{
-    display:flex;
-    justify-content:center;
-}
-
 .projects:hover{
     animation: scaleButton 2s;
     -webkit-animation: scaleButton 2s;
     -moz-animation: scaleButton 2s;
-}
+}   
 
 .about:hover{
     animation: scaleButton 2s;
     -webkit-animation: scaleButton 2s;
-    -moz-animation: scaleButton 2s; 
+    -moz-animation: scaleButton 2s;
+} 
+
+.resume {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 }
 
+.resume:hover, .resume:focus {
+    background-size: 100% 2px;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media( max-width: 950px) {
+
+    .logo{
+        width:150px;    
+    }
+
+    .projects{
+        font-size: 22px;
+    }
+
+    .about{
+        font-size: 22px;
+    }
+    
+    h1{
+        font-size: 25px;                                               
+    }
+
+    #profile{
+        flex-wrap: wrap;
+    }
+
+    .photo{
+        width:80%; 
+    }
+
+    .text{  
+        width:80%; 
+        font-size:20px;
+        margin-top: 50px;
+    }
+}
 
 /* 
 #Profile{
