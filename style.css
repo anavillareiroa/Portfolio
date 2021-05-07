@@ -1,0 +1,304 @@
+@keyframes scaleButton {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@font-face {
+    font-family:"Poppins-Light" ;
+    src: url("../Fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family:"Poppins-Bold" ;
+    src: url("../Fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family:"Poppins-Bold" ;
+    src: url("../Fonts/Poppins-Regular.ttf");
+}
+
+
+nav{
+    display:flex; 
+    font-size: 20px;
+    font-family: "Poppins-Light";
+}
+
+nav a{
+    font-family: "Poppins-Light";
+    font-size: 25px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 200px;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    width: 100vw;
+    max-width: 1280px;
+    justify-content: space-between;
+    margin:0 auto;
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+
+h2{
+    font-size: 37px;
+    font-family: "Poppins-Regular";
+    text-align: center;
+    padding-top:90px;
+}
+
+h4{
+    font-size: 37px;    
+    font-family: "Poppins-Regular";
+    margin: 0 auto;
+    width:100vw;   
+    max-width: 1280px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.Misproyectos{
+    display:flex;
+    width: 100vw;
+    max-width: 1280px;
+    justify-content: space-between;
+    margin:0 auto;
+
+}
+
+h3{
+    font-size: 30px;
+    font-family: "Poppins-Regular";
+    padding-top: 24px;   
+    margin-bottom: 200px;
+    margin: 0 auto;
+}
+
+.Misproyectos{
+    display:flex;
+    width: 100vw;
+    max-width: 1280px;
+    justify-content: space-around;
+    margin:0 auto;  
+    flex-wrap: wrap;
+}
+
+#Proyecto1{
+    width: 580px; 
+    height: 348px;
+    padding-top:15px;
+    margin-bottom: 20px;
+}   
+
+#Proyecto2{
+    width: 644px;
+    height: 404px; 
+    max-width: 1280px;  
+    padding-top:15px;
+}
+
+#Proyecto3{
+    margin: 0 auto;
+    width: 50vw;   
+    max-width: 1280px;
+    justify-content:center;
+    padding-top: 200px;
+    padding-bottom: 80px
+}
+
+.text{
+    font-size: 22px;    
+    font-family: "Poppins-Light";
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactme{
+    display:flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 30px;   
+}
+
+.contactme a{
+    margin-right: 22px;
+    margin-bottom:100px;
+}
+
+.contactme a:last-child{
+    margin-right: 0px;
+}
+
+.options{
+    display:flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.boton{
+    padding-top: 50px;
+}
+
+.projects:hover{
+    animation: scaleButton 2s;
+    -webkit-animation: scaleButton 2s;
+    -moz-animation: scaleButton 2s;
+}
+
+.about:hover{
+    animation: scaleButton 2s;
+    -webkit-animation: scaleButton 2s;
+    -moz-animation: scaleButton 2s; 
+}
+
+.contactme{
+    float: right;
+    -webkit-transition: margin 1s ease-out;
+    -moz-transition: margin 1s ease-out;
+    -ms-transition: margin 1s ease-out;
+    transition: margin 1s ease-out;
+    }
+    
+.contactme img:hover {
+    margin-bottom: 15px;
+    }
+
+/* MEDIA QUERIES */
+
+@media( max-width: 1300px) {
+
+    h2,h4{
+        font-size: 30px;                                               
+    }
+
+    .logo{
+        width:170px;    
+    }
+    
+    .projects{
+        font-size: 25px;
+    }
+
+    .about{
+        font-size: 25px;
+    }
+
+    .Misproyectos{
+        flex-wrap: wrap;
+    }
+
+    #Proyecto1{
+        width:80%; 
+    }
+
+    #Proyecto2{
+        width:80%; 
+        padding-top:170px;
+
+    }
+
+    #Proyecto3{
+        width:80%; 
+        padding-top:170px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    .text{
+        font-size:18px;
+    }
+}
+
+
+@media( max-width: 900px) {
+
+    h2,h4{
+
+        font-size: 25px;                                                        
+    }
+
+    .logo{
+
+        width:150px;    
+    }
+    
+    .projects{
+        font-size: 20px;
+    }
+
+    .about{
+        font-size: 20px;
+    }
+
+
+    .Misproyectos{
+        flex-wrap: wrap;
+    }
+
+    h3  {
+        font-size: 20px;
+    }
+
+    .text{
+        font-size:15px;
+    }
+
+}
+
+
+@media( max-width: 700px) {
+
+    h2,h4{
+        font-size: 22px;                                                
+    }
+
+    .logo{
+        width:100px;    
+    }
+    
+    .projects{
+        font-size: 15px;
+    }
+
+    .about{
+        font-size:15px;
+    }
+
+    #Proyecto1{
+        width:100%; 
+    }
+
+    #Proyecto2{
+        width:100%; 
+        padding-top:170px;
+    }
+
+    #Proyecto3{
+        width: 100%; 
+        padding-top:170px;
+    }
+
+}
