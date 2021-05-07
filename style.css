@@ -172,21 +172,27 @@ h3{
     -moz-animation: scaleButton 2s; 
 }
 
-.contactme{
-    float: left;
-    -webkit-transition: margin 1s ease-out;
-    -moz-transition: margin 1s ease-out;
-    -ms-transition: margin 1s ease-out;
-    transition: margin 1s ease-out;
-    }
-    
-.contactme img:hover {
-    margin-bottom: 5px;
-    }
+.medium{
+    transition: transform .5s;
+}
+.medium:hover{
+    transform:scale(1.5);   
+}
 
+.mail{
+    transition: transform .5s;
+}
+.mail:hover{
+    transform:scale(1.5);   
+}
 
+.linkedin{
+    transition: transform .5s;
+}
 
-
+.linkedin:hover{
+    transform:scale(1.5);   
+}
 
 
 /* MEDIA QUERIES */
