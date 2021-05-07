@@ -173,7 +173,7 @@ h3{
 }
 
 .contactme{
-    float: right;
+    float: left;
     -webkit-transition: margin 1s ease-out;
     -moz-transition: margin 1s ease-out;
     -ms-transition: margin 1s ease-out;
@@ -181,8 +181,13 @@ h3{
     }
     
 .contactme img:hover {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     }
+
+
+
+
+
 
 /* MEDIA QUERIES */
 
